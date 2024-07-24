@@ -9,6 +9,7 @@ const NavButton = styled(Link)`
   color: white;
   border: none;
   border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 10px 20px;
   margin: 5px;
   text-decoration: none;

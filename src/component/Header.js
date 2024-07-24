@@ -33,7 +33,6 @@ const DecorativeElement = styled.div`
   left: 10px;
   width: 50px;
   height: 50px;
-  background: url('https://example.com/food-icon.png') no-repeat center center;
   background-size: contain;
   z-index: 1;
 `;
@@ -42,7 +41,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <DecorativeElement />
-      <Heading>Yummy Restaurant</Heading>
+      <Heading>Vikky Restaurant</Heading>
     </HeaderContainer>
   );
 };

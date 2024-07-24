@@ -24,7 +24,7 @@ const Container = styled.div`
 const CountersPage = () => {
   return (
     <Container>
-      <Header>Multiple Counters</Header>
+      <Header>Counters</Header>
       <Counter initialCount={10} step={2} />
       <Counter initialCount={5} step={3} />
       <Counter initialCount={0} step={1} />
