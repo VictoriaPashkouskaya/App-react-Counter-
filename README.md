@@ -1,13 +1,57 @@
-# Getting Started with Create React App
+# React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objetivos del Proyecto
 
+- Comprender cómo desarrollar una aplicación con React.
+- Mejorar tus habilidades en desarrollo web.
+- Mejorar tus habilidades en desarrollo de JavaScript.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Ejercicios
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Ejercicio 1: Contador
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Crea un componente funcional `Counter` que contenga:
+- Un botón para decrementar.
+- Un contador.
+- Un botón para incrementar.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+El contador debe:
+- Poder empezar desde un número específico.
+- Permitir configurar el incremento/decremento en diferentes valores (2, 3, etc.).
 
+### Ejercicio 2: Saludo
+
+Crea un componente funcional `Greeting` que contenga:
+- Una etiqueta `p` que diga "Hola Euralio".
+- Cambia "Euralio" a un prop recibido desde el componente padre.
+- Después de 3 segundos desde que se monta el componente, debe mostrar "Hola Alfonsina".
+
+## Página del Restaurante
+
+Crea una página de restaurante con React utilizando componentes funcionales:
+- Incluye al menos los componentes `Home` y `Header`.
+- El componente `Home` debe mostrar el siguiente array de platos:
+
+```javascript
+const dishes = [
+  { id: 1, name: 'plato 1', description: 'Este es el plato 1', price: 10 },
+  { id: 2, name: 'plato 2', description: 'Este es el plato 2', price: 20 },
+  { id: 3, name: 'plato 3', description: 'Este es el plato 3', price: 15 }
+];
+```
+
+Este array debe ser pasado como props al componente Home.
+
+Extras
+Implementar diseño responsive.
+Rehacer el Ejercicio 2 utilizando componentes de clases.
+Rehacer la página del restaurante utilizando componentes de clases.
+Despliegue
+Para abrir el proyecto, despliega la aplicación en Vercel siguiendo estos pasos:
+
+Sube tu proyecto a un repositorio en GitHub.
+Conecta tu repositorio a Vercel:
+Ve a Vercel.
+Inicia sesión o crea una cuenta.
+Importa tu repositorio desde GitHub.
+Configura las opciones de despliegue y haz clic en "Deploy".
