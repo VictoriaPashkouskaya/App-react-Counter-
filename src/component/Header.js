@@ -1,29 +1,23 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Используйте яркий цвет или фоновое изображение
-const backgroundColor = '#ffcc00'; // Яркий желтый цвет
+const backgroundColor = '#ffcc00'; // color yellow
 
 const HeaderContainer = styled.header`
   background: ${backgroundColor};
-  color: #333; // Темный цвет текста для контраста
-  padding: 30px;
+  color: #333; 
+  padding: 20px;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  position: relative;
-  height: 250px; // Размер заголовка можно настроить по вашему усмотрению
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 150px; // size H1
   display: flex;
   align-items: center;
-  justify-content: center;
-  overflow: hidden;
 `;
 
 const Heading = styled.h2`
-  font-family: 'Pacifico', cursive; // Веселый шрифт
-  font-size: 3rem; // Увеличенный размер шрифта
-  margin: 0;
-  color: #333; // Темный цвет текста
-  z-index: 2;
+  font-family: 'Pacifico', cursive; 
+  font-size: 3rem; 
+  color: #333; 
   position: relative;
 `;
 
@@ -33,8 +27,6 @@ const DecorativeElement = styled.div`
   left: 10px;
   width: 50px;
   height: 50px;
-  background-size: contain;
-  z-index: 1;
 `;
 
 const Header = () => {

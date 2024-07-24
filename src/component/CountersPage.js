@@ -6,8 +6,9 @@ import Counter from './Counter';
 const Header = styled.h1`
   text-align: center;
   font-size: 3rem;
+  top: 2px;
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: 'Roboto', sans-serif; // You can replace this with any other font family
 `;
 
@@ -17,7 +18,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center; // Center items horizontally
   justify-content: center; // Center items vertically
-  min-height: 100vh; // Full viewport height
+  min-height: 62vh; // Full viewport height
   background-color: #f0f2f5; // Light background color for better contrast
 `;
 

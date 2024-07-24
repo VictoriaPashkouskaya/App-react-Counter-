@@ -21,20 +21,20 @@ const CounterContainer = styled.div`
   position: relative;
 
   @media (max-width: 600px) {
-    width: 100%; 
+    width: 89%; 
     padding: 10px;
   }
 `;
 
 // Styles for the count display
 const CountDisplay = styled.p`
-  font-size: 5rem;
+  font-size: 3rem;
   margin: 0;
   color: #333;
   position: relative;
 
   @media (max-width: 600px) {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 `;
 
@@ -45,9 +45,9 @@ const Button = styled.button`
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
-  margin: 5px;
+  margin: 7px;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   position: relative;
   transition: background-color 0.3s ease;
 
@@ -65,14 +65,14 @@ const Button = styled.button`
 const Symbol = styled.span`
   position: absolute;
   font-size: 5rem;
-  font-weight: 1000;
+  font-weight: 900;
   color: #ff5722;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   filter: brightness(1.5);
   animation: ${props => props.active ? css`${explodeAnimation} 0.6s ease-out forwards` : 'none'};
-  top: 45%;
-  left: 85%;
-  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 84%;
+  transform: translate(-40%, -40%);
   display: inline-block;
   white-space: nowrap;
   --direction-x: ${props => props.directionX || 0};

@@ -10,18 +10,17 @@ const NavButton = styled(Link)`
   border: none;
   border-radius: 6px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 10px 20px;
-  margin: 5px;
+  padding: 1px 5px;
+  margin: 2px;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
 
   &:hover {
     background-color: #0056b3;
   }
-      @media (max-width: 768px) {
+      @media (max-width: 600px) {
     display: flex;
-    gap: 10px;
   }
 `;
 

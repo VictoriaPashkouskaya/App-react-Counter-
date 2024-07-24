@@ -6,12 +6,11 @@ const GreetingContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 68vh;
   background: linear-gradient(135deg, #f8cfcf, #f8e1e1);
   color: #333;
   font-family: 'Arial', sans-serif;
   text-align: center;
-  padding: 20px;
 `;
 
 // Стили для текста приветствия
