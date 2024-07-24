@@ -4,10 +4,11 @@ import styled from 'styled-components';
 
 const NavButton = styled(Link)`
   display: inline-block;
+  justify-content: center;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   padding: 10px 20px;
   margin: 5px;
   text-decoration: none;
@@ -17,14 +18,18 @@ const NavButton = styled(Link)`
   &:hover {
     background-color: #0056b3;
   }
+      @media (max-width: 768px) {
+    display: flex;
+    gap: 10px;
+  }
 `;
 
 const NavButtons = () => {
   return (
     <div>
-      <NavButton to="/counters">Ejercicio 1</NavButton>
-      <NavButton to="/greeting">Ejercicio 2</NavButton>
-      <NavButton to="/restaurant">Página del Restaurante</NavButton>
+      <NavButton to="/counters">Counter</NavButton>
+      <NavButton to="/greeting">Greeting</NavButton>
+      <NavButton to="/restaurant">Restaurante</NavButton>
     </div>
   );
 };
